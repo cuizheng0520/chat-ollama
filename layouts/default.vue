@@ -27,9 +27,6 @@ watch(() => route.path, () => {
         <div class="mx-2">
           <ColorMode />
         </div>
-        <ULink to="https://github.com/sugarforever/chat-ollama"
-               target="_blank"
-               class="i-mdi-github text-2xl ml-2 mr-4"></ULink>
         <Auth />
       </div>
       <div class="md:hidden">
